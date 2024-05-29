@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
+
+    Book book1 = new Book("Hallo Welt", "Hans Müller", "123456789");
+    Book book2 = new Book("Wunderbare Welt", "Hannelore Schmidt", "987654321");
+    Book book3 = new Book("Wunderbare Erde", "Janis Schmidt", "9876543345");
+
     private List<Book> books;
 
 
